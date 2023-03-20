@@ -1,0 +1,124 @@
+{"questionId":3,"title":"question3","questionContent":{"contentId":3,"contentUser":{"userId":1,"lastName":"Bindea1","firstName":"Bogdan1","email":"test1@yahoo.com","password":"a722c63db8ec8625af6cf71cb8c2d939","profilePicture":"10224"},"contentText":"description3","contentDateTime":"2020-09-10T23:23:23","contentPicture":"3333"}}
+
+
+{"answerId":1,"answerQuestion":{"questionId":3,"title":"question3","questionContent":{"contentId":3,"contentUser":{"userId":1,"lastName":"Bindea1","firstName":"Bogdan1","email":"test1@yahoo.com","password":"a722c63db8ec8625af6cf71cb8c2d939","profilePicture":"10224"},"contentText":"description3","contentDateTime":"2020-09-10T23:23:23","contentPicture":"3333"}},"answerContent":{"contentId":4,"contentUser":{"userId":1,"lastName":"Bindea1","firstName":"Bogdan1","email":"test1@yahoo.com","password":"a722c63db8ec8625af6cf71cb8c2d939","profilePicture":"10224"},"contentText":"ansdescription4","contentDateTime":"2020-09-10T22:22:22","contentPicture":"2222"}}
+
+
+
+
+
+
+
+//user
+{
+        "userId": 1,
+        "lastName": "Bindea1",
+        "firstName": "Bogdan1",
+        "email": "test1@yahoo.com",
+        "password": "a722c63db8ec8625af6cf71cb8c2d939",
+        "profilePicture": "10224"
+    }
+
+
+
+//question
+{
+        "questionId": 1,
+        "title": "question1",
+        "questionContent": {
+            "contentId": 1,
+            "contentUser": {
+                "userId": 1,
+                "lastName": "Bindea1",
+                "firstName": "Bogdan1",
+                "email": "test1@yahoo.com",
+                "password": "a722c63db8ec8625af6cf71cb8c2d939",
+                "profilePicture": "10224"
+            },
+            "contentText": "description1",
+            "contentDateTime": "2020-09-10T20:20:20",
+            "contentPicture": "1234"
+        }
+    }
+
+
+
+//question2.0
+
+{"question":{
+        "questionId": 2,
+        "title": "question2",
+        "questionContent": {
+            "contentId": 2,
+            "contentUser": {
+                "userId": 1,
+                "lastName": "Bindea1",
+                "firstName": "Bogdan1",
+                "email": "test1@yahoo.com",
+                "password": "a722c63db8ec8625af6cf71cb8c2d939",
+                "profilePicture": "10224"
+            },
+            "contentText": "description2",
+            "contentDateTime": "2020-09-10T20:20:20",
+            "contentPicture": "1235"
+        }
+    },
+    "tags":[{"tagId":1,"tagName":"tag1","tagQuestion":{
+        "questionId": 2,
+        "title": "question2",
+        "questionContent": {
+            "contentId": 2,
+            "contentUser": {
+                "userId": 1,
+                "lastName": "Bindea1",
+                "firstName": "Bogdan1",
+                "email": "test1@yahoo.com",
+                "password": "a722c63db8ec8625af6cf71cb8c2d939",
+                "profilePicture": "10224"
+            },
+            "contentText": "description2",
+            "contentDateTime": "2020-09-10T20:20:20",
+            "contentPicture": "1235"
+        }}}]
+
+}
+
+
+
+
+//answer
+{
+    "answerId": 1,
+    "answerQuestion": {
+        "questionId": 1,
+        "title": "question1",
+        "questionContent": {
+            "contentId": 1,
+            "contentUser": {
+                "userId": 1,
+                "lastName": "Bindea1",
+                "firstName": "Bogdan1",
+                "email": "test1@yahoo.com",
+                "password": "a722c63db8ec8625af6cf71cb8c2d939",
+                "profilePicture": "10224"
+            },
+            "contentText": "description1",
+            "contentDateTime": "2020-09-10T20:20:20",
+            "contentPicture": "1234"
+        }
+    },
+    "answerContent": {
+        "contentId": 3,
+        "contentUser": {
+            "userId": 1,
+            "lastName": "Bindea1",
+            "firstName": "Bogdan1",
+            "email": "test1@yahoo.com",
+            "password": "a722c63db8ec8625af6cf71cb8c2d939",
+            "profilePicture": "10224"
+        },
+        "contentText": "ansdescription",
+        "contentDateTime": "2020-09-10T22:22:22",
+        "contentPicture": "2222"
+    }
+}
