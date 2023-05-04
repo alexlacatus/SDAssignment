@@ -1,0 +1,28 @@
+<div>
+  <h1>Post a Question</h1>
+  <form method="POST" action="/post_question" enctype="multipart/form-data">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title" required><br>
+
+    <label for="text">Text:</label><br>
+    <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+
+    <label for="image">Image:</label><br>
+    <input type="file" id="image" name="image"><br>
+
+    <label for="tags">Tags:</label><br>
+    <select id="tags" name="tags[]" multiple>
+      <option value="tag1">Tag1</option>
+      <option value="tag2">Tag2</option>
+      <option value="tag3">Tag3</option>
+      <option value="add_new_tag" class="add-new-tag">Add new tag</option>
+    </select><br>
+
+    <div class="new-tag-input hidden">
+      <label for="new_tag">New Tag:</label><br>
+      <input type="text" id="new_tag" name="new_tag"><br>
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
