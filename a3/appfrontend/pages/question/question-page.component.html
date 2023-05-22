@@ -1,0 +1,25 @@
+<div>
+  <h1>Post a Question</h1>
+  <form method="POST" action="/post_question" enctype="multipart/form-data">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title" required><br>
+
+    <label for="text">Text:</label><br>
+    <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+
+    <label for="text">Image:</label><br>
+    <input type="file" id="image" name="image" required><br>
+
+    <span id="tag-list"></span>
+
+
+
+
+    <span class="new-tag-input2">
+      <label for="new_tag">New Tags:</label><br>
+      <input type="text" id="new_tag" name="new_tag"><br>
+    </span>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>

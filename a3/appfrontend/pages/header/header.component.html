@@ -1,0 +1,26 @@
+<div id="header" class="header" >
+
+  <span>
+    <div class="container">
+      <a class="logo" id="homepage">StackOverflow</a>
+      <nav>
+        <ul>
+
+          <li>
+            <div class="search-form" id="form">
+              <input type="text" placeholder="Search..." (keydown)="handleKeyPress($event )">
+              <button  class="buttonh" ><i class="fa fa-search">go</i></button>
+            </div>
+          </li>
+          <li>
+            <a routerLink="/user-component" class="buttonh"><i class="fa fa-user">UserProfile</i></a>
+          </li>
+
+          <li *ngIf="userId === 1">
+            <a routerLink="/users-component" class="buttonh" id="manageusers" ><i class="fa fa-user">ManageUsers</i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </span>
+  </div>
